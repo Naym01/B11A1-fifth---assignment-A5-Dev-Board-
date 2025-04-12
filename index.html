@@ -24,7 +24,7 @@
                 <!-- frist part of left -->
                 <div class="flex justify- gap-x-3 items-center bg-blue-50 p-2 rounded-full">
                     <img src="assets/checkbox.png" alt="">
-                    <h3 class="font-extrabold">23</h3>
+                    <h3 id="twenty-three" class="font-extrabold">23</h3>
                 </div>
                 <!-- second Part of left -->
                 <img class=" bg-blue-50 p-2 rounded-full" src="assets/theme-btn.png" alt="">
@@ -36,28 +36,30 @@
     <main class="w-11/12 md:w-10/12 mx-auto py-4">
         <!-- total container -->
         <section class="flex justify-between items-start gap-x-4">
+
+
             <!-- left part of container -->
             <div class="bg-white mt-4 rounded-t-lg  grow ">
                 <!-- left top part / header part -->
                 <div class="flex justify-between mx-5  py-4 box-borde  ">
+
                     <!-- task assign  -->
                     <div class="flex justify-between items-center gap-3  bg-blue-100 rounded-md md:px-6 ">
 
                         <img class=" p-2 rounded-full bg-white" src="assets/checkbox.png" alt="">
                         <div>
                             <h5> Task assigned</h5>
-                            <h2 class="text-lg font-extrabold"> 05</h2>
+                            <h2 id="six" class="text-lg font-extrabold"> 06</h2>
                         </div>
                     </div>
                     <!-- discover part -->
-                    <div class="flex justify-between items-center gap-3 bg-blue-500 rounded-md md:px-12">
+                    <div id="discover" class="flex justify-between items-center gap-3 bg-blue-500 rounded-md md:px-12">
 
                         <img src="assets/board.png" alt="">
 
                         <h5> Discover something <br> new today</h5>
 
                     </div>
-
 
                     <!-- Wed Part-->
                     <div class="flex justify-between items-center gap-3 bg-blue-100 rounded-md md:py-4 md:px-6">
@@ -72,6 +74,9 @@
                 </div>
 
                 <hr>
+
+
+
                 <!-- left bottom part / 6 box container -->
                 <div class="bg-white grid grid-cols-2 md:grid-cols-3 gap-2  rounded-b-lg ">
                     <!-- card one -->
@@ -86,7 +91,7 @@
                                 <p class="text-xs text-gray-500">Deadline</p>
                                 <h4 class="text-sm font-semibold">21 March 2025</h4>
                             </div>
-                            <button class="bg-blue-500 py-1 px-2 rounded-md "> Completed</button>
+                            <button id="card-one" class="bg-blue-500 py-1 px-2 rounded-md "> Completed</button>
                         </div>
                     </div>
                     <!-- card two -->
@@ -168,6 +173,10 @@
                     </div>
                 </div>
             </div>
+
+
+
+
             <!-- right part of the container / Activity Log-->
             <div class="bg-white w-1/4 rounded-lg mt-4 h-screen text-center">
                 <div class="flex justify-center items-center gap-3 pt-5">
@@ -175,6 +184,12 @@
                     <button class="font-bold">Activity Log</button>
                 </div>
                 <button class="bg-blue-500 py-1 px-2 rounded-md mt-5"> Clear History</button> 
+                <p id="notic-board-1"></p>
+                <p id="notic-board-2"></p>
+                <p id="notic-board-3"></p>
+                <p id="notic-board-4"></p>
+                <p id="notic-board-5"></p>
+                <p id="notic-board-6"></p>
 
             </div>
 
@@ -183,7 +198,9 @@
 
     </main>
 
-
+<script src="scripts/routionPage.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/utility.js"></script>
 </body>
 
 </html>
